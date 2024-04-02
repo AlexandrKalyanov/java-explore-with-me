@@ -5,6 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import ru.practicum.dto.EndpointHitDto;
 import ru.practicum.dto.ViewStatsDto;
@@ -15,7 +16,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 
-@RestController
+@Controller
 @RequiredArgsConstructor
 @Slf4j
 public class StatsController {
