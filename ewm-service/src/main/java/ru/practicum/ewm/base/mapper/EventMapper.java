@@ -1,7 +1,11 @@
 package ru.practicum.ewm.base.mapper;
 
 import lombok.experimental.UtilityClass;
-import ru.practicum.ewm.base.dto.event.*;
+import ru.practicum.ewm.base.dto.event.UpdateEventAdminRequest;
+import ru.practicum.ewm.base.dto.event.UpdateEventUserRequest;
+import ru.practicum.ewm.base.dto.event.EventFullDto;
+import ru.practicum.ewm.base.dto.event.EventShortDto;
+import ru.practicum.ewm.base.dto.event.NewEventDto;
 import ru.practicum.ewm.base.dto.location.LocationDto;
 import ru.practicum.ewm.base.enums.State;
 import ru.practicum.ewm.base.model.Event;

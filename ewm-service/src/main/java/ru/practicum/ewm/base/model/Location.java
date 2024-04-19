@@ -1,7 +1,6 @@
 package ru.practicum.ewm.base.model;
 
 import lombok.*;
-
 import javax.persistence.Embeddable;
 
 @Embeddable
